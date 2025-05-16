@@ -1,5 +1,5 @@
 (kicad_pcb
-	(version 20250309)
+	(version 20250401)
 	(generator "pcbnew")
 	(generator_version "9.99")
 	(general
@@ -51,7 +51,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_57555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -64,9 +64,6 @@
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -83,9 +80,9 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -155,6 +152,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -401,6 +399,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -647,6 +646,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -854,6 +854,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.261253 -0.735)
 			(end 0.261253 -0.735)
@@ -1061,6 +1062,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -1307,6 +1309,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.71 -22.89)
 			(end 8.51 -22.89)
@@ -1981,6 +1984,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -2188,6 +2192,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2434,6 +2439,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -2641,6 +2647,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2887,6 +2894,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -0.261253 0.735)
 			(end 0.261253 0.735)
@@ -3094,6 +3102,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start -0.261253 0.735)
 			(end 0.261253 0.735)
@@ -3301,6 +3310,7 @@
 		(sheetname "/")
 		(sheetfile "LM675T_test.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -3452,8 +3462,8 @@
 		)
 	)
 	(gr_rect
-		(start 125 75)
-		(end 163.57 125)
+		(start 128.5 83)
+		(end 160 121.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -3992,12 +4002,10 @@
 			(clearance 0.5)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 			(island_removal_mode 1)
-			(island_area_min 10)
 		)
 		(polygon
 			(pts
@@ -4044,20 +4052,20 @@
 			(clearance 0.5)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
-				(xy 130 80) (xy 130 120) (xy 158.57 120) (xy 158.57 80)
+				(xy 130 84.5) (xy 130 120) (xy 158.57 120) (xy 158.57 84.5)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 158.513039 80.019685) (xy 158.558794 80.072489) (xy 158.57 80.124) (xy 158.57 119.876) (xy 158.550315 119.943039)
+				(xy 158.513039 84.519685) (xy 158.558794 84.572489) (xy 158.57 84.624) (xy 158.57 119.876) (xy 158.550315 119.943039)
 				(xy 158.497511 119.988794) (xy 158.446 120) (xy 130.124 120) (xy 130.056961 119.980315) (xy 130.011206 119.927511)
 				(xy 130 119.876) (xy 130 114.926135) (xy 144.6995 114.926135) (xy 144.6995 116.72187) (xy 144.699501 116.721876)
 				(xy 144.705908 116.781483) (xy 144.756202 116.916328) (xy 144.756206 116.916335) (xy 144.842452 117.031544)
@@ -4230,8 +4238,8 @@
 				(xy 142.255571 88.121605) (xy 142.013309 88.221953) (xy 142.013299 88.221958) (xy 141.786196 88.353075)
 				(xy 141.578148 88.512718) (xy 141.392718 88.698148) (xy 141.233075 88.906196) (xy 141.101958 89.133299)
 				(xy 141.101953 89.133309) (xy 141.001605 89.375571) (xy 141.001602 89.375581) (xy 140.93373 89.628885)
-				(xy 140.8995 89.888872) (xy 130 89.888872) (xy 130 80.124) (xy 130.019685 80.056961) (xy 130.072489 80.011206)
-				(xy 130.124 80) (xy 158.446 80)
+				(xy 140.8995 89.888872) (xy 130 89.888872) (xy 130 84.624) (xy 130.019685 84.556961) (xy 130.072489 84.511206)
+				(xy 130.124 84.5) (xy 158.446 84.5)
 			)
 		)
 	)

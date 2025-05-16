@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 1,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffff7f_fffdffdf",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -95,6 +95,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
